@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrom Game</title>
+    <script>
+        // Paste the JavaScript code here (inside <script> tags)
+    </script>
+</head>
+<body>
+    <h1>Carrom Game</h1>
+    <button onclick="game.playTurn('white')">Hit White</button>
+    <button onclick="game.playTurn('black')">Hit Black</button>
+    <button onclick="game.playTurn('red')">Hit Red</button>
+    <p id="status">Game Status: Ongoing</p>
+    <script>
+        const game = new CarromGame('carrom');
+    </script>
+</body>
+</html>
